@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    background-color: #0b1326;
+    color: #dae2fd;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom Scrollbar Styles for High-Density Technical Layouts */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.glow-ready {
+  box-shadow: 0 0 8px rgba(142, 213, 255, 0.2);
+}
+
+.glow-error {
+  animation: pulse-error-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-error-glow {
+  0%, 100% {
+    box-shadow: 0 0 12px rgba(255, 180, 171, 0.4);
+    border-color: #ffb4ab;
+  }
+  50% {
+    box-shadow: 0 0 2px rgba(255, 180, 171, 0.1);
+    border-color: rgba(255, 180, 171, 0.3);
+  }
+}
+
+.grid-bg {
+  background-image: linear-gradient(to right, rgba(135, 146, 154, 0.08) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(135, 146, 154, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
