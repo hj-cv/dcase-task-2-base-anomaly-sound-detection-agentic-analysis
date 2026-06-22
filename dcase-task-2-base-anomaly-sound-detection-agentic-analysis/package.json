@@ -1,5 +1,5 @@
 {
-  "name": "acoustic-anomaly-triage",
+  "name": "dcase-task-2-base-anomaly-sound-detection-agentic-analysis",
   "private": true,
   "version": "0.0.0",
   "type": "module",

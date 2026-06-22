@@ -9,10 +9,12 @@ interface HeaderProps {
 export default function Header({ onSearch, activeAlertCount, onOpenAlerts }: HeaderProps) {
   return (
     <header className="flex-none bg-[#0b1326] border-b border-[#3e484f] flex justify-between items-center w-full px-6 h-14 z-50">
-      <div className="flex items-center gap-4">
-        <span className="text-lg font-bold tracking-tight text-white flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-[#8ed5ff]" />
-          Acoustic Anomaly Triage
+      <div className="flex items-center gap-4 min-w-0">
+        <span className="text-sm font-bold tracking-tight text-white flex items-center gap-2 min-w-0">
+          <span className="w-2.5 h-2.5 rounded-full bg-[#8ed5ff] flex-none" />
+          <span className="truncate">
+            dcase-task-2-base-anomaly-sound-detection-agentic-analysis
+          </span>
         </span>
       </div>
 

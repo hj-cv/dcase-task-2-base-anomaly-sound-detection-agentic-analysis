@@ -1,25 +1,26 @@
-# Acoustic Anomaly Triage
+# dcase-task-2-base-anomaly-sound-detection-agentic-analysis
 
-A browser-based dashboard for reviewing acoustic anomaly candidates from
-manufacturing equipment.
+A browser-based dashboard for reviewing DCASE Task 2 anomaly sound detection
+candidates from manufacturing equipment.
 
 The application helps operators inspect abnormal sound patterns, review
 segment-level waveform details, monitor testbed devices, and generate
-maintenance-oriented triage reports.
+maintenance-oriented analysis reports.
 
 ## Project Structure
 
 ```text
 .
 ├── README.md
-└── acoustic-anomaly-triage/
+└── dcase-task-2-base-anomaly-sound-detection-agentic-analysis/
     ├── src/
     ├── server.ts
     ├── package.json
     └── vite.config.ts
 ```
 
-The runnable application lives in `acoustic-anomaly-triage/`. This root README
+The runnable application lives in
+`dcase-task-2-base-anomaly-sound-detection-agentic-analysis/`. This root README
 is the single project README.
 
 ## Requirements
@@ -32,7 +33,7 @@ is the single project README.
 Install dependencies:
 
 ```bash
-cd acoustic-anomaly-triage
+cd dcase-task-2-base-anomaly-sound-detection-agentic-analysis
 npm install
 ```
 
@@ -64,7 +65,8 @@ automatically.
 
 ## Scripts
 
-Run these commands from `acoustic-anomaly-triage/`:
+Run these commands from
+`dcase-task-2-base-anomaly-sound-detection-agentic-analysis/`:
 
 ```bash
 npm run dev      # start the local development server

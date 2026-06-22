@@ -1,0 +1,6 @@
+{
+  "name": "dcase-task-2-base-anomaly-sound-detection-agentic-analysis",
+  "description": "An interactive DCASE Task 2 anomaly sound detection dashboard for manufacturing machinery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

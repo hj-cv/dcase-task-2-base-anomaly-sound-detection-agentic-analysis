@@ -1,6 +1,0 @@
-{
-  "name": "Acoustic Anomaly Triage",
-  "description": "An interactive digital-signal monitoring dashboard for acoustic triage of manufacturing machinery anomalies.",
-  "requestFramePermissions": [],
-  "majorCapabilities": []
-}
